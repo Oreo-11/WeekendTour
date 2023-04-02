@@ -1,0 +1,972 @@
+@font-face {
+	font-family: 'Futura'; 
+	src: url('fonts/ofont.ru_Futura PT.ttf'); 
+}
+@font-face {
+	font-family: 'YesevaOne'; 
+	src: url('fonts/ofont.ru_Yeseva\ One.ttf'); 
+}
+@font-face {
+	font-family: 'Macherie'; 
+	src: url('fonts/macherie.ttf'); 
+}
+@font-face {
+	font-family: 'Unbounded-ExtraLight'; 
+	src: url('fonts/Unbounded-ExtraLight.ttf'); 
+}
+@font-face {
+	font-family: 'Unbounded-ExtraBold'; 
+	src: url('fonts/Unbounded-ExtraBold.ttf'); 
+}
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: calc(-3688px - -100vw);
+  height: 40000px;
+  scroll-behavior: smooth;
+}
+div.main {
+  display: flex;
+  position: fixed;
+}
+
+div.logo-text {
+	font-family: 'Unbounded-ExtraBold'; 
+  margin-left: 5.2vw;
+  margin-top: 5vh;
+}
+div.first-page {
+  /* animation-timing-function: linear; */
+  animation-fill-mode:forwards;
+  animation-duration: 6s;
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #081b3d;
+  flex-direction: column;
+}
+.first-page h1 span {
+	font-family: 'Unbounded-ExtraLight'; 
+  width: 100%;
+  margin-left: 40px;
+  font-size: 6vw;
+  font-weight: 400;
+  color: #f5eee2;
+}
+.first-page h1 {
+  font-size: 9vw;
+  margin: 0;
+  color: #f5eee2;
+}
+div.first-page-img {
+  width: 19.4vw;
+  height: 50vh;
+  background-color: #d9d9d9;
+  margin-left: 6.1vw;
+  margin-top: 4vh;
+}
+div.first-page-img img{
+  width: 100%;
+  height: 100%;
+}
+div.content-first-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-page-text {
+  position: relative;
+  align-items: end;
+  display: flex;
+  margin-left: 5vw;
+}
+h2 {
+  top: 5%;
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+	font-family: 'YesevaOne'; 
+  margin: 0;
+  font-size: 3.5vw;
+  line-height: 5vw;
+  color: #F5EEE2;
+}
+.footer-first-page {
+  margin-top: 5vh;
+  margin-left: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.circl {
+  border-radius: 100%;
+  display: flex;
+  background-color: #f5eee2;
+  width: 50px;
+  height: 50px;
+}
+.circl div {
+  margin: 17px 11px;
+}
+.footer-first-page h2 {
+  font-size: 48px;
+  color: #f5eee2;
+  margin-left: 26px;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-page {
+  /* animation-timing-function: linear; */
+  animation-fill-mode:forwards;
+  animation-duration: 6s;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 3668px;
+  height: 100vh;
+  background-color: #081b3d;
+}
+.main-img {
+  position: relative;
+  height: 100%;
+  right: 10vw;
+}
+.main-img img {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.third-page {
+  animation-fill-mode:forwards;
+  animation-duration: 6s;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.second-page-first-img {
+  top: 50%;
+  margin-top: 81px;
+  left: 90vw;
+  width: 176.5px;
+  height: 100.5px;
+  z-index: 1;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+.second-page-first-img img{
+  width: 100%;
+  height: 100%;
+}
+.second-page-second-img {
+  top: 50%;
+  left: 1062px;
+  width: 176.5px;
+  margin-top: -261px;
+  height: 100.5px;
+  z-index: 1;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+.second-page-second-img img{
+  width: 100%;
+  height: 100%;
+}
+.first-tour{
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+
+}
+.first-tour img{
+  width: 100%;
+  height: 100%;
+}
+.second-page-three-img{
+  top: 50%;
+  left: 2179px;
+  width: 176.5px;
+  height: 100.5px;
+  margin-top: 85px;
+  z-index: 1;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+.second-page-three-img img{
+  width: 100%;
+  height: 100%;
+}
+.second-page-four-img{
+  top: 50%;
+  left: 3371px;
+  width: 176.5px;
+  height: 100.5px;
+  margin-top: -150px;
+  z-index: 1;
+  position: absolute;
+  background-color: #d9d9d9;
+}
+
+.second-page-four-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.mainTour{
+  z-index: 3;
+  animation-fill-mode:forwards;
+  animation-duration: 1.5s;
+  position: absolute;
+  top: 100vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #F4EDE1;
+}
+.nameTour{
+  display: flex;
+  flex-direction: column;
+  width: 7vw;
+  height: 100vh;
+  border-right: 2px solid #0E2D63;
+}
+.mainTourNameTourOne{
+  position: absolute;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 400;
+  color: #0F2E63;
+  top: 89%;
+  left: 8%;
+  margin: 0;
+  font-family: 'YesevaOne'; 
+}
+.nameTour div{
+  width: 50%;
+  height: 100vh;
+  background-color: #0F2E63;
+
+}
+.nameTour h1{
+  color: #0E2D63;
+  font-size: 4vw;
+  text-align: center
+}
+.nameTour span{
+  position: relative;
+  color: #0E2D63;
+  font-size: 4vw;
+}
+.imgTour{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 100vh;
+  border-right: 2px solid #0E2D63;
+}
+#mainImgTour{
+  width: 40vw;
+}
+.moreDetailedTour{
+  display: flex;
+  width: 33vw;
+  height: 100vh;
+  flex-direction: column;
+}
+.routeNameTour{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 7%;
+  border-bottom: 2px solid #0E2D63;
+}
+.routeNameTour h1{
+  color: #0E2D63;
+  text-align: center;
+  font-size: 1.5vw;
+}
+.infromation{
+  width: 100%;
+  height: 85%;
+  border-bottom: 2px solid #0E2D63;
+}
+.infromation div{
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+.infromation div p{
+  color: #0E2D63;
+  font-size: 0.9vw;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Futura';
+}
+.nubmerTour{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 9%;
+  align-items: center;
+}
+.nubmerTour h1{
+  color: #0E2D63;
+  font-size: 3vw;
+}
+
+
+
+
+.lineMapTour{
+  position: relative;
+  top: 99.8%;
+  z-index: 3123213;
+  width: 200vw;
+  height: 0.28vw;
+  right: 37%;
+  background: #0E2D63;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes leftMain {
+  0%{
+    left: 0px;
+  }
+  100%{
+    left: calc(-3668px + -100vw);
+  }
+}
+
+@keyframes anti-leftMain {
+  0%{
+    left: calc(-3668px + -100vw);
+  }
+  100%{
+    left: 0px;
+  }
+}
+
+@keyframes leftMainTwo {
+  0%{
+    left: -87vw;
+  }
+  100%{
+    left: -3668px;
+  }
+}
+
+@keyframes anti-leftMainTwo {
+  0%{
+    left: -3668px;
+  }
+  100%{
+    left: -87vw;
+  }
+}
+
+@keyframes leftMainThree {
+  0%{
+    left: -3668px ;
+  }
+  100%{
+    left: calc(-3668px + -100vw);
+  }
+}
+
+
+@keyframes anti-leftMainThree {
+  0%{
+    left: calc(-3668px + -100vw);
+  }
+  100%{
+    left: -3668px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes bounts {
+  0%{
+    top: 100vh;
+  }
+  100%{
+    top:0vh;
+  }
+  }
+
+  @keyframes anti-bounts {
+    0%{
+      top: 0;
+    }
+    100%{
+      top:100vh;
+    }
+    }
+
+
+
+
+
+
+    @keyframes bounts-five {
+      0%{
+        top: 100vh;
+      }
+      100%{
+        top:0vh;
+      }
+      }
+    
+    @keyframes anti-bounts-five {
+        0%{
+          top: 0vh;
+        }
+        100%{
+          top:100vh;
+        }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .TwoMainTour::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+
+
+    .TwoMainTour{
+      overflow-x: hidden;
+      overflow-y: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      animation-fill-mode:forwards;
+      animation-duration: 1.5s;
+      z-index: 4;
+      width: 100vw;
+      position: absolute;
+      top: 200vh;
+      background-color: #F4EDE1;
+  }
+  .TwoMainTourHead{
+      width: 100%;
+      height: 95%;
+      display: flex;
+  }
+  .mapImgTour{
+      width: 60%;
+      height: 96%;
+      margin-top: 4%;
+      border-top: 2px solid #0E2D63;
+  }
+  .mapImgTourImg img{
+      width: 100%;
+  
+  }
+  .metka{
+      position: absolute;
+  }
+
+  #mOne{
+      cursor: pointer;
+  }
+  .mainMapTour{
+      width: 100%;
+      height: 100%;
+  }
+  .informationMapTour{
+      border-left: 2px solid #0E2D63;
+      width: 40%;
+      height: 100.4%;
+  }
+  .HeadinformationMapTour{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-bottom: 2px solid #0E2D63;
+  }
+  .HeadinformationMapTour h2{
+      font-size: 1.5vw;
+      font-family: 'Futura'; 
+      margin-top: 3vw;
+      color: #0E2D63;
+      margin-left: 3vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 41px;
+      margin-bottom: 0;
+  }
+  .HeadinformationMapTour h1{
+      font-family: 'YesevaOne'; 
+      margin-top: 1vw;
+      font-style: normal;
+      font-weight: 400;
+      color: #0E2D63;
+      margin-left: 3vw;
+      margin-bottom: 1.5vw;
+      font-size: 2vw;
+  }
+  .infornationImgSliderTour{
+      width: 100%;
+      display: flex;
+  }
+  .slider{
+      width: 4000px;
+      overflow: hidden;
+      display: flex;
+  
+      border-bottom: 2px solid #0E2D63;
+  }
+  .slider img{
+    position: relative;
+    width: 15vw;
+    height: 23vw;
+    background-color: #f4ede1;
+      margin-top: 2vw;
+      margin-left: 2vw;
+      margin-bottom: 2vw;
+  }
+  .infotmationMapTourText{
+      width: 100%;
+      height: 110%;
+    font-family: 'Futura'; 
+    font-size: 1.5vw;
+  }
+  .infotmationMapTourText div{
+      width: 90%;
+      display: flex;
+
+      height: 47%;
+      margin-top: 1.7vw;
+      margin-left: 3vw;
+  }
+  .TwoMainTourFooter{
+      background-color: #F4EDE1;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+  }
+  .TwoMainTourFooter img{
+      width: 0.8vw;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .mainFooterTourInformation::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+
+  .mainFooterTourInformation{
+    overflow-x: hidden;
+    overflow-y:scroll;
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    animation-fill-mode:forwards;
+    animation-duration: 1.5s;
+    z-index: 10;
+    position: absolute;
+    top: 100vh;
+    background: #081B3D;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.nameFooterTourRecomendation{
+    width: 100%;
+}
+.nameFooterTourRecomendation h1{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: 400;
+    font-size: 84px;
+    margin-left: 5vw;
+    color: #F4EDE1;
+    font-family: 'YesevaOne'; 
+}
+.sliderFooterRecomendation{
+  width: 4000px;
+    display: flex;
+    flex-direction: row;
+}
+.sliderFooterRecomendation div{
+  cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 585px;
+    height: 175px;
+    justify-content: center;
+    border: 2px solid #F4EDE1;
+
+    animation: sliderLeft 20s infinite linear;
+}
+.sliderFooterRecomendation div h1{
+    font-family: 'Futura';
+    font-style: normal;
+    color: #F4EDE1;
+    font-size: 24px;
+    font-weight: 400;
+}
+.mainInformationTourRecomendation{
+    width: 100%;
+}
+.mainInformationTourRecomendation h1{
+    font-family: 'YesevaOne';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 5vw;
+    font-size: 48px;
+    color: #F4EDE1;
+    margin-top: 3vw;
+}
+.mainInformationTourRecomendation div{
+    margin-top: 3vw;
+    width: 36vw;
+    height: 21vw;
+    background-color: #f4ede1;
+    margin-left: 5vw;
+}
+.mainInformationTourRecomendation img{
+    width: 100%;
+    height: 100%;
+}
+.mainInformationTourRecomendation p{
+    margin-top: 3vw;
+    width: 60%;
+    color: #F4EDE1;
+    margin-left: 5vw;
+    font-family: 'Futura'; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 20px;
+    margin-bottom: 10vw;
+}
+
+
+
+
+
+
+
+
+
+
+.mainMobile{
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color:  #081B3D;
+
+}
+.textTopMobile{
+  font-family: 'Futura'; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #F5EEE2;
+  position: absolute;
+  top: 4vw;
+  left: 7vw;
+}
+.MainMobileText{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 180px;
+  line-height: 208px;
+  color: #F5EEE2;
+  font-family: 'YesevaOne'; 
+  margin: 0;
+  position: relative;
+  top: 27%;
+  left: 7vw;
+  z-index: 10;
+}
+.mainMobile div{
+  width: 85%;
+  height: 30%;
+  margin: 0 auto;
+  position: relative;
+  top: 15%;
+}
+.mainMobile div img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+.svgItem{
+  cursor: pointer;
+}
+
+@keyframes sliderLeft {
+    0%{
+        left: 0px;
+    }
+    100%{
+      left: calc(-100% + 100vw);
+    }
+}
+
+
+
+
+
+
+@keyframes sliderLeftMOne {
+  0%{
+      left: 0px;
+  }
+  100%{
+    left: -64vw;
+  }
+}
+
+
+
+@keyframes sliderLeftThree {
+  0%{
+      left: 0px;
+  }
+  100%{
+    left: -13vw;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 1281px) {
+    .footer-first-page h2 {
+      font-size: 21px;
+      align-items: center;
+      color: #081B3D;
+      margin-left: 10px;
+  }
+  .footer-first-page {
+    background: #F5EEE2;
+    margin-top: 0px;
+    margin-left: 6vw;
+    bottom: 0;
+    width: 19.4vw;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+  }
+
+
+
+  @media (max-width: 710px) {
+    .nameFooterTourRecomendation h1 {
+      margin-top: 5vw;
+      margin-bottom: 5vw;
+      font-weight: 400;
+      font-size: 80px;
+      margin-left: 5vw;
+      color: #F4EDE1;
+      font-family: 'YesevaOne';
+  }
+  }
+
+
+  @media (max-width: 680px) {
+    .footer-first-page h2 {
+      font-size: 18px;
+      align-items: center;
+      color: #081B3D;
+      margin-left: 10px;
+  }
+    .circl {
+      border-radius: 100%;
+      display: flex;
+      background-color: #f5eee2;
+      width: 40px;
+      height: 50px;
+  }
+  }
+
+
+
+  
+
